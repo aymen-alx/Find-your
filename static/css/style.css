@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+/*	background: red;*/
+}
+
+header nav {
+	width: 100%;
+	display: flex;
+	background: rgb(255,0,172);
+	background: linear-gradient(90deg, rgba(255,0,172,1) 0%, rgba(121,9,92,1) 66%, rgba(99,0,42,1) 100%);
+	height: 64px;
+	align-items: center;
+	/* float: right; */
+}
+header nav a {
+	text-decoration: none;
+	color: red;
+	padding: 22px;
+	font-size: 18px;
+	color: white;
+}
+header nav a:hover {
+	background: #df80ff;
+	padding: 22px;
+	border: none;
+	border-radius: 5px;
+	color: #ff00ac;
+}
+
+
+.container {
+/*	background: yellow;*/
+}
+
+.container .landing-header {
+	display: flex;
+	margin: 0 5%;
+/*	background: grey;*/
+}
+.container .landing-header img {
+	width: 700px;
+}
+.container .landing-header .tag-title {
+	padding-top: 100px;
+	font-size: 45px;
+	font-weight: bold;
+}
+.container .landing-header .join-btn {
+	margin-top: 15%;
+	padding: 7px;
+	font-size: 14px;
+	background: pink;
+	border: 1px darkred; solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.container .landing-header .join-btn:hover {
+	font-size: 15px;
+	color: white;
+}
+
+/* landing-futures */
+.container .landing-futures-container {
+	background: rgb(0,91,255);
+	background: linear-gradient(90deg, rgba(0,91,255,1) 0%, rgba(121,9,92,1) 51%, rgba(99,0,42,1) 100%);
+}
+.container .landing-futures {
+	display: flex;
+	margin: 0 5%;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.container .landing-futures .illus {
+	width: 300px;
+}
+.container .landing-futures .user-feedback{
+	margin-top: 100px;
+}
+.container .landing-futures .user-feedback h1 {
+	color: white;
+}
