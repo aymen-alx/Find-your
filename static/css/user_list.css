@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+	width: 100%;
+	display: flex;
+	background: rgb(255,0,172);
+	background: linear-gradient(90deg, rgba(255,0,172,1) 0%, rgba(121,9,92,1) 66%, rgba(99,0,42,1) 100%);
+	height: 64px;
+	align-items: center;
+	/* float: right; */
+}
+header nav a {
+	text-decoration: none;
+	color: red;
+	padding: 22px;
+	font-size: 18px;
+	color: white;
+}
+header nav a:hover {
+	background: #df80ff;
+	padding: 22px;
+	border: none;
+	border-radius: 5px;
+	color: #ff00ac;
+}
+
+
+
+.container {
+    margin: 50px;
+}
+.user-card {
+    /* background-color: orange; */
+    width: 150px;
+    /* overflow: hidden; */
+    text-align: center;
+	box-shadow: 0 0 5px #888888;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+}
+.user-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+	box-shadow: 0 0 5px #888888;
+    padding: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.user-card h3 {
+    font-weight: bold;
+    cursor: pointer;
+}
+.user-card .address {
+    padding-bottom: 20px;
+}
+.user-card .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
